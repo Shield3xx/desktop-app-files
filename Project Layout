@@ -1,0 +1,8 @@
+antivirus-desktop/
+├── main.py              # entry point (GUI)
+├── scanner.py           # ClamAV wrapper: scan files and folders
+├── quarantine.py        # move/restore infected files
+├── monitor.py           # real-time folder watcher
+├── config.py            # settings (paths, paid-tier flag)
+├── requirements.txt
+└── gui.py               # PySide6 interface
